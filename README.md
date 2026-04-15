@@ -49,7 +49,7 @@ The dataset was **synthetically generated** using Python to simulate real-world 
 ---
 
 ## 📈 Dashboard Preview
-![Dashboard](dashboard/powerbi_dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/OkaforChukwuka/Fish-Market-Demand-Price-Forecasting-Analysis/refs/heads/main/Screenshot%202026-04-13%20164419.png)
 
 ---
 
