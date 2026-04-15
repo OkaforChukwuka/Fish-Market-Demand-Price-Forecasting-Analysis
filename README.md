@@ -1,74 +1,93 @@
-Fish Market Demand & Price Forecasting Analysis
-📌 Project Overview
+# 🐟 Fish Market Demand & Price Forecasting System
 
-This project focuses on analyzing fish market data to uncover insights on pricing trends, demand patterns, and revenue performance.
-The goal is to help fish farmers, sellers, and stakeholders make data-driven decisions.
+## 📌 Overview
+This project analyzes fish market data to uncover trends in pricing, demand, and revenue, and builds a simple forecasting model to predict future price movements.
 
-🎯 Problem Statement
+The goal is to help fish farmers, sellers, and stakeholders make **data-driven decisions** instead of relying on guesswork.
 
-Fish farmers and sellers often rely on guesswork when deciding:
+---
 
-When to sell
-What fish type to focus on
-Which location generates the most revenue
+## 🎯 Problem Statement
+Fish sellers often struggle with:
+- Identifying the best time to sell
+- Understanding which fish type is more profitable
+- Knowing which locations generate the highest demand
 
-This project solves that by using data to provide actionable insights.
+This project provides insights to solve these challenges using data analysis and visualization.
 
-🛠️ Tools & Technologies
-Python (Pandas, Matplotlib, Scikit-learn)
-Power BI
-Excel
-📊 Dataset
-The dataset was synthetically generated using Python
-It simulates real-world fish market conditions including:
-Price fluctuations
-Demand levels
-Location-based sales
+---
 
-Columns:
+## 🛠️ Tools & Technologies
+- Python (Pandas, Matplotlib, Scikit-learn)
+- Power BI
+- Excel
 
-Date
-Location
-Fish_Type
-Price_per_KG
-Demand_Level
-Quantity_Sold
-Market_Type
-Revenue
-🔍 Key Analysis Performed
-Price trend analysis over time
-Demand comparison by location
-Revenue analysis by fish type
-Demand level distribution
-Basic price forecasting using Python
-💡 Key Insights
-Fish prices peaked around March and declined afterwards
-Warri recorded the highest quantity sold
-Catfish generated slightly higher revenue than Tilapia
-Demand is relatively balanced across fish types
-📈 Dashboard
+---
 
-The Power BI dashboard provides:
+## 📊 Dataset
+The dataset was **synthetically generated** using Python to simulate real-world fish market conditions.
 
-KPI metrics (Revenue, Quantity Sold, Average Price)
-Price trend visualization
-Demand distribution
-Location-based performance
-Interactive filters
-🤖 Forecasting
+### Features:
+- Date
+- Location
+- Fish_Type
+- Price_per_KG
+- Demand_Level
+- Quantity_Sold
+- Market_Type
+- Revenue
 
-A simple predictive model was built using Python to estimate future price trends based on historical data.
+---
 
-🚀 Business Impact
+## 🔍 Key Analysis
+- Price trend analysis over time
+- Demand comparison across locations
+- Revenue analysis by fish type
+- Demand distribution insights
+- Basic price forecasting model
 
-This project demonstrates how data can help:
+---
 
-Optimize selling periods
-Improve pricing strategies
-Identify high-performing markets
-Reduce business uncertainty
+## 📈 Dashboard Preview
+![Dashboard](dashboard/powerbi_dashboard.png)
 
-🙌 Author
+---
 
-Okafor Chukwuka
+## 💡 Key Insights
+- Fish prices peaked around March and declined afterward
+- Warri recorded the highest quantity sold
+- Catfish generated slightly higher revenue than Tilapia
+- Demand is balanced across fish types
+
+---
+
+## 🤖 Forecasting Model
+A simple Linear Regression model was used to predict future fish prices based on historical trends.
+
+---
+
+## 🚀 Business Impact
+This project demonstrates how data can:
+- Optimize selling periods
+- Improve pricing strategies
+- Identify high-performing markets
+- Support better decision-making
+
+---
+
+---
+
+## 🔮 Future Improvements
+- Integrate real-world datasets
+- Use advanced forecasting (ARIMA, Prophet)
+- Deploy as a web dashboard
+
+---
+
+## 🙌 Author
+**Okafor Chukwuka**  
 Aspiring Data Analyst | Building Data-Driven Solutions
+
+---
+
+## ⭐ If you found this useful, give it a star!
